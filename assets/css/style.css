@@ -1,0 +1,164 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+#body{
+    background-color: #e89595;
+}
+.comic-neue-light {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.comic-neue-regular {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.comic-neue-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #222222;
+    border-bottom: 2px solid #ffcc00;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.comic-neue-bold {
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    color: #ffcc00;
+    font-weight: 800;
+}
+
+.comic-neue-light {
+    font-family: 'Comic Neue', cursive;
+    font-weight: lighter;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Main section styling */
+#main-section {
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.buscador-img img {
+    width: 500px;
+    margin-top: 10px;
+}
+
+.buscador-title h1 {
+    font-size: 2.5em;
+}
+
+.input-buscar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-buscar input {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+#boton {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffcc00;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.mensaje{
+    color: #ff0000;
+    margin-top: 10px;
+}
+/* Results section styling */
+#results-section {
+    display: none;
+    background: #12db84;
+    color: #ffffff;
+    padding: 20px;
+}
+.post{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+.post-container{
+    max-width: 50%;
+    height: 100%;
+}
+#card {
+    background-color: #d1bbf1;
+    border: 1px solid #ffcc00;
+    color: #ffffff;
+    font-weight: 700;
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+#chartContainer {
+    background: #444444;
+    max-width: 100%;
+    height: 90%;
+    margin: 10px 80px;
+    border: 1px solid #ffcc00;
+}
+/*desaparecer*/
+.hidden {
+    display: none;
+}
+.card{
+    width: 100%;
+}
+/* Estilos para el GIF de carga */
+.loading-overlay {
+    display: none;
+    position: fixed;
+    left: 40%;
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .8;
+}
+
+.loading-overlay img {
+    width: 300px;
+    height: auto;
+}
